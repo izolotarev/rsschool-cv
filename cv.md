@@ -11,7 +11,7 @@ location: Russia, Moscow
 _2010 - 2021_  
 **Software Implementer**
 
-- Implementation of the software developed in the US to Russian Oil Refineries https://www.pcmssoftware.com/
+- Implementation of the software developed in the US to Russian Oil Refineries. [PCMS Software](https://www.pcmssoftware.com/)
 - SAP link integration with PCMS (Plant Condition Management Software)
 - Business Intelligence Data analytics products development in Qlik Sense
 - Database administration SQL Server 2017
