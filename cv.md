@@ -147,7 +147,8 @@ export default () => {
 
 Express Authentication service: signup.ts
 
-```import express, { Request, Response } from 'express';
+```
+import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
 import jwt from 'jsonwebtoken';
 
