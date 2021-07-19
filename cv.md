@@ -94,7 +94,8 @@ VS code, Visual Studio 2017, Eclipse, Xcode
 
 React Authentication page: signup.js
 
-```import { useState, useEffect } from 'react';
+```
+import { useState, useEffect } from 'react';
 import Router from 'next/router';
 import useRequest from '../../hooks/use-request';
 
