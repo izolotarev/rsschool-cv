@@ -6,33 +6,39 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: row;
-  margin: 1em;
+  margin: 1rem;
   justify-content: flex-start;
+  border: 0.5rem solid rgb(75, 75, 75);
 }
 
 .left-part {
-  background-color: red;
+  background-color: rgb(75, 75, 75);
   color: white;
-  flex-grow: 1;
   display: flex;
+  flex-basis: 30%;
   flex-direction: column;
+  padding: 1.5rem 2rem;
 }
 
 .photo {
   background-color: rgb(75, 75, 75);
-  /*flex-grow: 1;*/
-  padding: 2em;
+  flex-grow: 1;
+  /*padding-top: 2em;
+  padding-left: 5em;*/
 }
 
 .photo__img {
-  width: 20%;
+  /*width: 30%;*/
   border-radius: 50%;
-  border: 5px solid white;
+  border: 0.3rem solid white;
 }
 
 .contact-info {
-  background-color: cadetblue;
+  background-color: rgb(75, 75, 75);
   flex-grow: 2;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .skills {
@@ -41,21 +47,45 @@ body {
 }
 
 .right-part {
-  background-color: red;
   color: white;
-  flex-grow: 1;
+  flex-basis: 70%;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 
-.full-name-position {
-  background-color: green;
+.full-name {
+  background-color: white;
+  color: black;
   flex-grow: 1;
+  font-size: 5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .working-exp {
   background-color: blue;
-  flex-grow: 2;
+  color: black;
+  font-size: 5rem;
+}
+
+.organization-duties {
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.organization {
+  background-color: brown;
+  flex-basis: 20%;
+  padding: 0.5rem 0;
+}
+
+.duties {
+  background-color: green;
+  flex-basis: 80%;
+  padding: 0.5rem;
 }
 
 .education {
@@ -69,10 +99,18 @@ ul.no-bullets {
   margin: 0; /* Remove margins */
 }
 
-i {
-  color: rgb(16, 188, 240);
+ul.no-bullets > li {
+  padding: 0.1rem;
+}
+
+.contact-info > i {
+  color: white;
+}
+
+.working-exp > i {
+  color: black;
 }
 
 hr {
-  color: rgb(16, 188, 240);
+  color: white;
 }
