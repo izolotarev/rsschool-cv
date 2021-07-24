@@ -19,8 +19,15 @@ body {
 }
 
 .photo {
-  background-color: brown;
-  flex-grow: 1;
+  background-color: rgb(75, 75, 75);
+  /*flex-grow: 1;*/
+  padding: 2em;
+}
+
+.photo__img {
+  width: 20%;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 
 .contact-info {
