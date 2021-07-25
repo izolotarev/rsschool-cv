@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 
-body {
+.wrapper {
   display: flex;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   flex-direction: row;
-  margin: 1rem;
-  justify-content: flex-start;
+  margin: 1rem 1rem 0 1rem;
+  /*justify-content: flex-start;*/
   border: 0.5rem solid rgb(75, 75, 75);
 }
 
@@ -136,6 +136,19 @@ hr {
   color: white;
 }
 
-code {
-  color: black;
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.footer-link {
+  color: white;
+}
+
+footer > img {
+  width: 15%;
 }
