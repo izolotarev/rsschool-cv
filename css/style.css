@@ -22,7 +22,7 @@ body {
 
 .photo {
   background-color: rgb(75, 75, 75);
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   /*padding-top: 2em;
   padding-left: 5em;*/
 }
@@ -35,15 +35,16 @@ body {
 
 .contact-info {
   background-color: rgb(75, 75, 75);
-  flex-grow: 2;
+  /*flex-grow: 2;*/
   font-size: 2rem;
   display: flex;
   justify-content: center;
 }
 
 .skills {
-  background-color: red;
+  background-color: rgb(75, 75, 75);
   flex-grow: 3;
+  font-size: 1.5rem;
 }
 
 .right-part {
@@ -62,28 +63,48 @@ body {
   font-weight: bold;
   display: flex;
   justify-content: center;
+  padding-bottom: 5rem;
 }
 
-.working-exp {
-  background-color: blue;
+.chapter {
+  background-color: white;
   color: black;
   font-size: 5rem;
+}
+
+.chapter-small {
+  background-color: white;
+  color: black;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.proj {
+  color: black;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .organization-duties {
   color: black;
   font-size: 1.5rem;
   display: flex;
+  margin-top: 2rem;
+}
+
+.org-position {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .organization {
-  background-color: brown;
+  background-color: white;
   flex-basis: 20%;
   padding: 0.5rem 0;
 }
 
 .duties {
-  background-color: green;
+  background-color: white;
   flex-basis: 80%;
   padding: 0.5rem;
 }
@@ -113,4 +134,8 @@ ul.no-bullets > li {
 
 hr {
   color: white;
+}
+
+code {
+  color: black;
 }
