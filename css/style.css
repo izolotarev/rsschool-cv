@@ -39,12 +39,14 @@
   font-size: 2rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .skills {
   background-color: rgb(75, 75, 75);
   flex-grow: 3;
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .right-part {
@@ -151,4 +153,8 @@ footer {
 
 footer > img {
   width: 15%;
+}
+
+.youtube-video {
+  border: 2px solid white;
 }
