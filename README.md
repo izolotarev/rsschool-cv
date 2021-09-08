@@ -1,1 +1,1 @@
-https://izolotarev.github.io/rsschool-cv/
+https://izolotarev.github.io/rsschool-cv/cv
