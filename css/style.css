@@ -464,7 +464,7 @@ html {
 
 body {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -480,56 +480,102 @@ body {
   overflow: hidden;
 }
 
-.art-gallery {
-  background-color: gray;
-  padding-top: 75px;
+.heading-1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+  color: #1148c5;
+}
+
+.heading-2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.heading-3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+}
+.heading-3_blue {
+  color: #1148c5;
+}
+
+.header {
+  background: rgba(17, 72, 197, 0.03);
+  padding: 40px 0 76px 0;
+}
+
+.header__wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.header__content {
+  margin-left: 40px;
+}
+
+.header__fullname {
+  margin: 0 0 10px 0;
+}
+
+.header__position {
+  margin: 0 0 30px 0;
+}
+
+.header__photo {
+  border: 12px solid rgba(17, 72, 197, 0.05);
+  border-radius: 12px;
+}
+
+.header__aboutme {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.header__contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.header__contacts-item {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.header__contacts-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.header__contacts-item a:hover {
+  color: #1148c5;
+  transition: all 0.3s;
+}
+.header__contacts-item a:hover svg {
+  fill: #1148c5;
+  transition: all 0.3s;
+}
+
+.header__contacts-desc {
+  margin-left: 10px;
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 1120px;
   margin: 0 auto;
-}
-
-.art-gallery__container {
-  overflow-y: hidden;
-  height: 2000px;
-}
-
-.art-gallery__inner-container {
-  height: 2980px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.art-gallery__inner-container img {
-  margin-right: 36px;
-  margin-top: 20px;
-}
-
-.art-gallery__inner-container img:first-child,
-.art-gallery__inner-container img:nth-child(11) {
-  margin-top: 70px;
-}
-
-.art-gallery__heading {
-  color: white;
-  font-size: 80px;
-  line-height: 90px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  margin-bottom: 125px;
-}
-
-.new-section {
-  height: 200px;
-  background-color: yellow;
-}
-
-@media (max-width: 1024px) {
-  .wrapper {
-    max-width: calc(1024px - 40px);
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

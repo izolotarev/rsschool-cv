@@ -5,15 +5,6 @@
   line-height: $height;
 }
 
-@mixin columns($width) {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  > * {
-    flex-basis: $width;
-  }
-}
-
 @mixin mock($height: 100px, $bg: rgba(255, 255, 255, 0.1), $wavesOpacity: 0.5) {
   height: $height;
 
