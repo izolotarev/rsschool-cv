@@ -734,4 +734,47 @@ html {
   margin-bottom: 10px;
 }
 
+.video-code {
+  padding: 20px 0 20px 0;
+}
+
+.video-code__wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 40px;
+}
+
+.footer {
+  background: rgba(17, 72, 197, 0.03);
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.github-logo {
+  margin-right: 10px;
+}
+
+.github:hover .github-logo {
+  fill: #1148c5;
+}
+
+.github:hover p {
+  color: #1148c5;
+}
+
+.rsschool__logo:hover {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=style.css.map */

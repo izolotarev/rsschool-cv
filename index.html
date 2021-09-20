@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- <link rel="icon" href="assets/favicon.ico"> -->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -246,7 +254,7 @@
             </ul>
           </div>
         </section>
-        <section class="skills" id="class">
+        <section class="skills" id="skills">
           <div class="wrapper">
             <h2 class="heading-2 heading-2_blue skills__heading">Skills</h2>
             <div class="skills__wrapper">
@@ -266,7 +274,8 @@
                 <ul class="skills__list">
                   <li>HTML, CSS, Javascript</li>
                   <li>C#, Java, Python</li>
-                  <li>SQL, R language, VBA</li>
+                  <li>SQL, R language</li>
+                  <li>VBA</li>
                 </ul>
               </div>
               <div class="skills__webdev">
@@ -283,14 +292,70 @@
                 <ul class="skills__list">
                   <li>VS code</li>
                   <li>Visual Studio 2017</li>
-                  <li>Eclipse</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
+        <section class="video-code" id="video-code">
+          <div class="wrapper">
+            <h2 class="heading-2 heading-2_blue skills__heading">
+              Presentation and code snippets
+            </h2>
+            <div class="video-code__wrapper">
+              <iframe
+                class="youtube-video"
+                width="300"
+                height="200"
+                src="https://www.youtube.com/embed/4cQl2Xc-9Q4"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <pre><code class="language-javascript hljs">//Linked List to String
+
+function stringify(list) {
+  let node = list;
+  let res = '';
+
+  while (node) {
+    res += node.data + ' -> ';
+    node = node.next;
+  }
+  res += 'null';
+
+  return res;
+}</code></pre>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer></footer>
+      <footer class="footer">
+        <div class="wrapper footer__wrapper">
+          <a href="https://github.com/izolotarev" class="github">
+            <svg
+              class="github-logo"
+              width="24"
+              height="24"
+              aria-hidden
+              focusable="false"
+            >
+              <use xlink:href="assets/svg/sprite.svg#github"></use>
+            </svg>
+            <p class="footer__github-account">izolotarev © 2021</p></a
+          >
+          <a href="https://rs.school/js/" class="rsschool">
+            <img
+              class="rsschool__logo"
+              src="assets/img/rs_school_js.svg"
+              height="70"
+              width="100"
+              title="RS School"
+              alt="RS-School"
+            />
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
