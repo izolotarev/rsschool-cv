@@ -53,3 +53,21 @@
     margin-left: 320px;
   }
 }
+
+@media (max-width: 768px) {
+  .education {
+    padding: 20px;
+  }
+
+  .education__wrapper {
+    display: block;
+  }
+
+  .education__heading {
+    margin-left: 0px;
+  }
+
+  .education__date {
+    margin-bottom: 30px;
+  }
+}

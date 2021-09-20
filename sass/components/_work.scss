@@ -52,3 +52,21 @@
     margin-left: 320px;
   }
 }
+
+@media (max-width: 768px) {
+  .work {
+    padding: 20px;
+  }
+
+  .work__wrapper {
+    display: block;
+  }
+
+  .work__heading {
+    margin-left: 0px;
+  }
+
+  .work__date {
+    margin-bottom: 30px;
+  }
+}

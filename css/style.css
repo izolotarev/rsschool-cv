@@ -593,6 +593,15 @@ html {
     column-gap: 20px;
   }
 }
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 20px;
+  }
+
+  .header__wrapper {
+    display: block;
+  }
+}
 .wrapper {
   max-width: 1120px;
   margin: 0 auto;
@@ -601,6 +610,11 @@ html {
 @media (max-width: 1024px) {
   .wrapper {
     max-width: 1024px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 768px;
   }
 }
 .projects {
@@ -646,17 +660,39 @@ html {
   }
 
   .projects__wrapper {
-    grid-template-columns: 300px 660px;
+    grid-template-columns: 300px 620px;
     column-gap: 20px;
     row-gap: 20px;
   }
 
   .projects__photo {
-    width: 660px;
+    width: 620px;
   }
 
   .projects__heading {
     margin-left: 320px;
+  }
+}
+@media (max-width: 768px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects__wrapper {
+    display: block;
+  }
+
+  .projects__photo {
+    width: 740px;
+    margin-bottom: 20px;
+  }
+
+  .projects__date {
+    margin-bottom: 10px;
+  }
+
+  .projects__heading {
+    margin-left: 0px;
   }
 }
 .education {
@@ -714,6 +750,23 @@ html {
     margin-left: 320px;
   }
 }
+@media (max-width: 768px) {
+  .education {
+    padding: 20px;
+  }
+
+  .education__wrapper {
+    display: block;
+  }
+
+  .education__heading {
+    margin-left: 0px;
+  }
+
+  .education__date {
+    margin-bottom: 30px;
+  }
+}
 .work {
   padding: 20px 0 20px 0;
 }
@@ -768,6 +821,23 @@ html {
     margin-left: 320px;
   }
 }
+@media (max-width: 768px) {
+  .work {
+    padding: 20px;
+  }
+
+  .work__wrapper {
+    display: block;
+  }
+
+  .work__heading {
+    margin-left: 0px;
+  }
+
+  .work__date {
+    margin-bottom: 30px;
+  }
+}
 .skills {
   background: rgba(17, 72, 197, 0.03);
   padding: 20px 0 20px 0;
@@ -812,6 +882,21 @@ html {
     margin-left: 320px;
   }
 }
+@media (max-width: 768px) {
+  .skills {
+    padding: 20px;
+  }
+
+  .skills__wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    column-gap: 20px;
+  }
+
+  .skills__heading {
+    margin-left: 0px;
+  }
+}
 .video-code {
   padding: 20px 0 20px 0;
 }
@@ -834,6 +919,24 @@ html {
 
   .video-code__heading {
     margin-left: 320px;
+  }
+}
+@media (max-width: 768px) {
+  .video-code {
+    padding: 20px;
+  }
+
+  .video-code__wrapper {
+    display: block;
+  }
+
+  .video-code__heading {
+    margin-left: 0px;
+  }
+
+  .youtube-video {
+    width: 740px;
+    height: 500px;
   }
 }
 .footer {

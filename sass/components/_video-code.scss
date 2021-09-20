@@ -22,3 +22,22 @@
     margin-left: 320px;
   }
 }
+
+@media (max-width: 768px) {
+  .video-code {
+    padding: 20px;
+  }
+
+  .video-code__wrapper {
+    display: block;
+  }
+
+  .video-code__heading {
+    margin-left: 0px;
+  }
+
+  .youtube-video {
+    width: 740px;
+    height: 500px;
+  }
+}

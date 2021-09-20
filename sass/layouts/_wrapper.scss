@@ -1,17 +1,16 @@
 .wrapper {
   max-width: $content-width;
   margin: 0 auto;
-
-  // @include media-laptop {
-  //   padding: 0 46px;
-  // }
-  // @include media-mobile {
-  //   padding: 0 21px;
-  // }
 }
 
 @media (max-width: 1024px) {
   .wrapper {
     max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 768px;
   }
 }
