@@ -1,39 +1,39 @@
-.projects {
+.education {
+  background: $color-grey;
   padding: 20px 0 20px 0;
 }
 
-.projects__wrapper {
+.education__wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
   column-gap: 40px;
   row-gap: 20px;
 }
 
-.projects__heading {
+.education__heading {
   margin-left: 340px;
   margin-bottom: 20px;
 }
 
-.projects__list {
+.education__list {
   list-style: none;
 }
 
-.projects__list-item {
-}
-
-.projects__date {
+.education__date {
   margin-top: 10px;
   color: $color-dark-grey;
 }
 
-.projects__title {
+.education__title {
   margin-bottom: 10px;
 }
 
-.projects__description {
+.education__description {
   margin-bottom: 10px;
+  color: $color-dark-grey;
 }
 
-.projects__tech {
-  margin-bottom: 10px;
+.eduction__mode {
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
