@@ -1,0 +1,82 @@
+.projects {
+  padding: 20px 0 20px 0;
+}
+
+.projects__wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.projects__heading {
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+.projects__list {
+  list-style: none;
+}
+
+.projects__list-item {
+}
+
+.projects__date {
+  margin-top: 10px;
+  color: $color-dark-grey;
+}
+
+.projects__title {
+  margin-bottom: 10px;
+}
+
+.projects__description {
+  margin-bottom: 10px;
+}
+
+.projects__tech {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects__wrapper {
+    grid-template-columns: 300px 620px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .projects__photo {
+    width: 620px;
+  }
+
+  .projects__heading {
+    margin-left: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects__wrapper {
+    display: block;
+  }
+
+  .projects__photo {
+    width: 740px;
+    margin-bottom: 20px;
+  }
+
+  .projects__date {
+    margin-bottom: 10px;
+  }
+
+  .projects__heading {
+    margin-left: 0px;
+  }
+}

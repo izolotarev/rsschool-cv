@@ -1,0 +1,38 @@
+.footer {
+  background: $color-grey;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.github-logo {
+  margin-right: 10px;
+}
+
+.github:hover .github-logo {
+  fill: $color-blue;
+}
+
+.github:hover p {
+  color: $color-blue;
+}
+
+.rsschool__logo:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 20px 20px;
+  }
+}
