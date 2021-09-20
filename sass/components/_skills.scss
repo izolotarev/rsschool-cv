@@ -42,3 +42,19 @@
     margin-left: 320px;
   }
 }
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 20px;
+  }
+
+  .skills__wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    column-gap: 20px;
+  }
+
+  .skills__heading {
+    margin-left: 0px;
+  }
+}
