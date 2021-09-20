@@ -11,9 +11,19 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-size: 16px;
+.page {
   font-family: $font-primary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.page-wrapper {
+  min-width: 320px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 .visually-hidden:not(:focus):not(:active) {

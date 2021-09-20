@@ -1,16 +1,17 @@
 .header {
   background: $color-header;
-  padding: 40px 0 76px 0;
+  padding: 40px 0 40px 0;
 }
 
 .header__wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
+  column-gap: 40px;
   //grid-template-rows: 1fr 1fr 1fr;
 }
 
 .header__content {
-  margin-left: 40px;
+  //margin-left: 40px;
 }
 
 .header__fullname {
@@ -32,11 +33,13 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
+
+  margin-bottom: 20px;
 }
 
 .header__contacts-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 300px 300px;
   list-style: none;
 }
 
