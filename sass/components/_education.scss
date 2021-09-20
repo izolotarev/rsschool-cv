@@ -37,3 +37,19 @@
   margin-left: 20px;
   margin-bottom: 5px;
 }
+
+@media (max-width: 1024px) {
+  .education {
+    padding: 20px;
+  }
+
+  .education__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .education__heading {
+    margin-left: 320px;
+  }
+}

@@ -37,3 +37,23 @@
 .projects__tech {
   margin-bottom: 10px;
 }
+
+@media (max-width: 1024px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .projects__photo {
+    width: 660px;
+  }
+
+  .projects__heading {
+    margin-left: 320px;
+  }
+}
