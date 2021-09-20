@@ -1,0 +1,28 @@
+.skills {
+  background: $color-grey;
+  padding: 20px 0 20px 0;
+}
+
+.skills__heading {
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+.skills__wrapper {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 1fr;
+  column-gap: 40px;
+}
+
+.skills__list {
+  list-style: circle;
+}
+
+.skills__list li {
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
+
+.skills h3 {
+  margin-bottom: 10px;
+}
