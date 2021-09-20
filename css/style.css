@@ -319,7 +319,6 @@ input {
   /* 2 */
 }
 
-
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
@@ -590,6 +589,10 @@ html {
   margin: 0 auto;
 }
 
+.projects {
+  padding: 20px 0 20px 0;
+}
+
 .projects__wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
@@ -621,6 +624,85 @@ html {
 
 .projects__tech {
   margin-bottom: 10px;
+}
+
+.education {
+  background: rgba(17, 72, 197, 0.03);
+  padding: 20px 0 20px 0;
+}
+
+.education__wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.education__heading {
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+.education__list {
+  list-style: none;
+}
+
+.education__date {
+  margin-top: 10px;
+  color: #475569;
+}
+
+.education__title {
+  margin-bottom: 10px;
+}
+
+.education__description {
+  margin-bottom: 10px;
+  color: #475569;
+}
+
+.eduction__mode {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.work {
+  padding: 20px 0 20px 0;
+}
+
+.work__wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.work__heading {
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+.work__list {
+  list-style: none;
+}
+
+.work__date {
+  margin-top: 10px;
+  color: #475569;
+}
+
+.work__title {
+  margin-bottom: 10px;
+}
+
+.work__description {
+  margin-bottom: 10px;
+  color: #475569;
+}
+
+.work__mode {
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
