@@ -30,3 +30,9 @@
 .rsschool__logo:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 20px 20px;
+  }
+}

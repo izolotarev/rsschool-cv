@@ -584,11 +584,25 @@ html {
   margin-left: 10px;
 }
 
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 20px;
+  }
+
+  .header__wrapper {
+    column-gap: 20px;
+  }
+}
 .wrapper {
   max-width: 1120px;
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
 .projects {
   padding: 20px 0 20px 0;
 }
@@ -626,6 +640,25 @@ html {
   margin-bottom: 10px;
 }
 
+@media (max-width: 1024px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .projects__photo {
+    width: 660px;
+  }
+
+  .projects__heading {
+    margin-left: 320px;
+  }
+}
 .education {
   background: rgba(17, 72, 197, 0.03);
   padding: 20px 0 20px 0;
@@ -666,6 +699,21 @@ html {
   margin-bottom: 5px;
 }
 
+@media (max-width: 1024px) {
+  .education {
+    padding: 20px;
+  }
+
+  .education__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .education__heading {
+    margin-left: 320px;
+  }
+}
 .work {
   padding: 20px 0 20px 0;
 }
@@ -705,6 +753,21 @@ html {
   margin-bottom: 5px;
 }
 
+@media (max-width: 1024px) {
+  .work {
+    padding: 20px;
+  }
+
+  .work__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .work__heading {
+    margin-left: 320px;
+  }
+}
 .skills {
   background: rgba(17, 72, 197, 0.03);
   padding: 20px 0 20px 0;
@@ -734,6 +797,21 @@ html {
   margin-bottom: 10px;
 }
 
+@media (max-width: 1024px) {
+  .skills {
+    padding: 20px;
+  }
+
+  .skills__wrapper {
+    display: grid;
+    grid-template-columns: 300px 200px 200px 200px;
+    column-gap: 20px;
+  }
+
+  .skills__heading {
+    margin-left: 320px;
+  }
+}
 .video-code {
   padding: 20px 0 20px 0;
 }
@@ -744,6 +822,20 @@ html {
   column-gap: 40px;
 }
 
+@media (max-width: 1024px) {
+  .video-code {
+    padding: 20px;
+  }
+
+  .video-code__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+  }
+
+  .video-code__heading {
+    margin-left: 320px;
+  }
+}
 .footer {
   background: rgba(17, 72, 197, 0.03);
 }
@@ -775,6 +867,12 @@ html {
 
 .rsschool__logo:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 20px 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -36,3 +36,19 @@
   margin-left: 20px;
   margin-bottom: 5px;
 }
+
+@media (max-width: 1024px) {
+  .work {
+    padding: 20px;
+  }
+
+  .work__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .work__heading {
+    margin-left: 320px;
+  }
+}

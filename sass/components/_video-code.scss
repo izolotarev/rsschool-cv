@@ -7,3 +7,18 @@
   grid-template-columns: 300px 1fr;
   column-gap: 40px;
 }
+
+@media (max-width: 1024px) {
+  .video-code {
+    padding: 20px;
+  }
+
+  .video-code__wrapper {
+    grid-template-columns: 300px 660px;
+    column-gap: 20px;
+  }
+
+  .video-code__heading {
+    margin-left: 320px;
+  }
+}

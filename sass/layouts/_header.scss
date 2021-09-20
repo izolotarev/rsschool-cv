@@ -68,3 +68,13 @@
 .header__contacts-desc {
   margin-left: 10px;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 20px;
+  }
+
+  .header__wrapper {
+    column-gap: 20px;
+  }
+}
