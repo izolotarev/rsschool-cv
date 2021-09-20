@@ -463,9 +463,19 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-size: 16px;
+.page {
   font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.page-wrapper {
+  min-width: 320px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -497,6 +507,9 @@ body {
   font-size: 36px;
   line-height: 54px;
 }
+.heading-2_blue {
+  color: #1148c5;
+}
 
 .heading-3 {
   font-family: "Inter", sans-serif;
@@ -511,16 +524,13 @@ body {
 
 .header {
   background: rgba(17, 72, 197, 0.03);
-  padding: 40px 0 76px 0;
+  padding: 40px 0 40px 0;
 }
 
 .header__wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
-}
-
-.header__content {
-  margin-left: 40px;
+  column-gap: 40px;
 }
 
 .header__fullname {
@@ -542,11 +552,12 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
+  margin-bottom: 20px;
 }
 
 .header__contacts-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 300px 300px;
   list-style: none;
 }
 
@@ -577,6 +588,39 @@ body {
 .wrapper {
   max-width: 1120px;
   margin: 0 auto;
+}
+
+.projects__wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.projects__heading {
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+.projects__list {
+  list-style: none;
+}
+
+.projects__date {
+  margin-top: 10px;
+  color: #475569;
+}
+
+.projects__title {
+  margin-bottom: 10px;
+}
+
+.projects__description {
+  margin-bottom: 10px;
+}
+
+.projects__tech {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

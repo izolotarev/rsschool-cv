@@ -13,6 +13,10 @@
   font-weight: 800;
   font-size: 36px;
   line-height: 54px;
+
+  &_blue {
+    color: $color-blue;
+  }
 }
 
 .heading-3 {
